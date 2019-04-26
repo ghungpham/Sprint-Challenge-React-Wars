@@ -25,12 +25,18 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React JS is a User Interface Library that is used to make a website interactive. It abstracts away the DOM elements, to make it easier for developers to scale up the interactivity of the website. The heart of React is its "state" which is created to pass out data and the use of props to create components. The passing down data from state to smaller components through props, will help developers to scale up their projects, makes it usable, and can control the flow of large information by just changing its smaller components through the use of props. React has the setState functions that will allow the App to rerender directly what a user wants to change the interface.
 
 - [ ] What does it mean to _think_ in react?
+To think in react means how to build your own application in the most efficent way by taking advantages of react's important features. First, you have to break down your apps to components, then build your static app up, then decide where you want to build your "state" which is where you want your app to receive the data directly, then you start making sure there are two way bindings from your components up to your props
+
 
 - [ ] Describe state.
+ state is the object property of the class constructor that accept data from an array and/or from data that user created when interacting with the app. State allows the developers to use setState which allows the user to change the data directly, and rerenders the interface as users pass in new inputs.
 
 - [ ] Describe props.
+  props are properties, which are the attribute-looking data you want to use for your smaller components that receive the data from the higher up state constructor. This allows React JS to be more reusable, when you can allow the state data to use different methods on smaller components.
+
 
 ## Project Set Up
 
